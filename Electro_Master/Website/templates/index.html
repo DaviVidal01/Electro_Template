@@ -269,85 +269,37 @@
 
 						<div class="products-widget-slick" data-nav="#slick-nav-3">
 							<div>
+								{% for x in prod %}
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product07.png" alt="">
+										<img src="{{ x.image.url }}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h3 class="product-name"><a href="#">{{ x.title }}</a></h3>
+										<h4 class="product-price">${{ x.precoA }} <del class="product-old-price">${{ x.precoD }}</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product08.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product09.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
+								{% endfor %}
 							</div>
 
 							<div>
+								{% for x in prod %}
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product01.png" alt="">
+										<img src="{{ x.image.url }}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h3 class="product-name"><a href="#">{{ x.title }}</a></h3>
+										<h4 class="product-price">${{ x.precoA }} <del class="product-old-price">${{ x.precoD }}</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product02.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product03.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
+								{% endfor %}
 							</div>
 						</div>
 					</div>
@@ -362,85 +314,37 @@
 
 						<div class="products-widget-slick" data-nav="#slick-nav-4">
 							<div>
+								{% for x in prod %}
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product04.png" alt="">
+										<img src="{{ x.image.url }}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h3 class="product-name"><a href="#">{{ x.title }}</a></h3>
+										<h4 class="product-price">${{ x.precoA }} <del class="product-old-price">${{ x.precoD }}</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product05.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product06.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
+								{% endfor %}
 							</div>
 
 							<div>
+								{% for x in prod %}
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product07.png" alt="">
+										<img src="{{ x.image.url }}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h3 class="product-name"><a href="#">{{ x.title }}</a></h3>
+										<h4 class="product-price">${{ x.precoA }} <del class="product-old-price">${{ x.precoD }}</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product08.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product09.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
+								{% endfor %}
 							</div>
 						</div>
 					</div>
@@ -457,85 +361,37 @@
 
 						<div class="products-widget-slick" data-nav="#slick-nav-5">
 							<div>
+								{% for x in prod %}
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product01.png" alt="">
+										<img src="{{ x.image.url }}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h3 class="product-name"><a href="#">{{ x.title }}</a></h3>
+										<h4 class="product-price">${{ x.precoA }} <del class="product-old-price">${{ x.precoD }}</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product02.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product03.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
+								{% endfor %}
 							</div>
 
 							<div>
+								{% for x in prod %}
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product04.png" alt="">
+										<img src="{{ x.image.url }}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h3 class="product-name"><a href="#">{{ x.title }}</a></h3>
+										<h4 class="product-price">${{ x.precoA }} <del class="product-old-price">${{ x.precoD }}</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product05.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product06.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
+								{% endfor %}
 							</div>
 						</div>
 					</div>
